@@ -6,3 +6,4 @@
 - 在 `Chrome Devtools` 的 `Console` 标签内，输入 `var data = `，然后粘贴刚才复制的数据，再点击键盘的 `Enter` 键
 - 再次转到文件夹，打开 `setData.js` 文件，全选，复制，粘贴到浏览器的 `Console` 栏，再点击键盘的 `Enter` 键，这时候程式就会开始自动完成答案的填充操作，并打印出选择的题目以及答案信息，具体可以查看操作 `GIF` 图
  
+![示例图片](./public/images/example.gif)
