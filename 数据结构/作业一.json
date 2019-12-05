@@ -1,0 +1,627 @@
+[
+    {
+        "index": "1",
+        "title": "以下结构中，哪一个是属于逻辑结构（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "顺序栈"
+            },
+            {
+                "index": "B",
+                "text": "链栈"
+            },
+            {
+                "index": "C",
+                "text": "队列"
+            },
+            {
+                "index": "D",
+                "text": "循环队列"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "已知栈S为空，数据1、2、3、4依次逐个进入栈S，则栈顶数据为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "1"
+            },
+            {
+                "index": "B",
+                "text": "2"
+            },
+            {
+                "index": "C",
+                "text": "3"
+            },
+            {
+                "index": "D",
+                "text": "4"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "栈的最大特点是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "先进先出"
+            },
+            {
+                "index": "B",
+                "text": "后进先出"
+            },
+            {
+                "index": "C",
+                "text": "无限递归"
+            },
+            {
+                "index": "D",
+                "text": "有限递归"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "队列的最大特点是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "先进先出"
+            },
+            {
+                "index": "B",
+                "text": "后进先出"
+            },
+            {
+                "index": "C",
+                "text": "无限递归"
+            },
+            {
+                "index": "D",
+                "text": "有限递归"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "已知栈包含10元素，其中存放在栈底是第1号元素，则第10号元素可以通过（）进行访问",
+        "listData": [
+            {
+                "index": "A",
+                "text": "栈底"
+            },
+            {
+                "index": "B",
+                "text": "栈中"
+            },
+            {
+                "index": "C",
+                "text": "栈尾"
+            },
+            {
+                "index": "D",
+                "text": "栈顶"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "以下描述正确的是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "顺序栈可以直接访问栈内任意位置的元素，而链栈不可以"
+            },
+            {
+                "index": "B",
+                "text": "链栈可以直接访问栈内任意位置的元素，而顺序栈不可以"
+            },
+            {
+                "index": "C",
+                "text": "通过栈可以实现程序的递归算法"
+            },
+            {
+                "index": "D",
+                "text": "通过队列可以实现程序的递归算法"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "以下结构中，哪一个是属于物理结构（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "栈"
+            },
+            {
+                "index": "B",
+                "text": "队列"
+            },
+            {
+                "index": "C",
+                "text": "链队列"
+            },
+            {
+                "index": "D",
+                "text": "线性表"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "使用长度为10的数组实现循环队列，则该队列最多存储数据个数为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "1"
+            },
+            {
+                "index": "B",
+                "text": "9"
+            },
+            {
+                "index": "C",
+                "text": "11"
+            },
+            {
+                "index": "D",
+                "text": "5"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "在队列中，允许插入的一端称为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "队头"
+            },
+            {
+                "index": "B",
+                "text": "队中"
+            },
+            {
+                "index": "C",
+                "text": "队指针"
+            },
+            {
+                "index": "D",
+                "text": "队尾"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "以下结构中，哪一个是属于逻辑结构（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "线性表"
+            },
+            {
+                "index": "B",
+                "text": "顺序表"
+            },
+            {
+                "index": "C",
+                "text": "单链表"
+            },
+            {
+                "index": "D",
+                "text": "循环链表"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "11",
+        "title": "已知顺序表包含1000个数据，现在第88号位置插入新的数据，需要移动的数据个数为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "88"
+            },
+            {
+                "index": "B",
+                "text": "87"
+            },
+            {
+                "index": "C",
+                "text": "912"
+            },
+            {
+                "index": "D",
+                "text": "913"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "12",
+        "title": "若线性表最常用的操作是存取第i个元素及其后继的值,则最节省操作时间的存储结构是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "单链表"
+            },
+            {
+                "index": "B",
+                "text": "双链表"
+            },
+            {
+                "index": "C",
+                "text": "单循环链表"
+            },
+            {
+                "index": "D",
+                "text": "顺序表"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "13",
+        "title": "以下结构中，哪一个是属于物理结构（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "线性表"
+            },
+            {
+                "index": "B",
+                "text": "栈"
+            },
+            {
+                "index": "C",
+                "text": "单链表"
+            },
+            {
+                "index": "D",
+                "text": "队列"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "14",
+        "title": "已知顺序表包含100个数据，现在要删除第99号位置的数据，需要移动的数据个数为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "99"
+            },
+            {
+                "index": "B",
+                "text": "100"
+            },
+            {
+                "index": "C",
+                "text": "1"
+            },
+            {
+                "index": "D",
+                "text": "2"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "15",
+        "title": "已知指针p指向单链表L的某个结点，判断p指向的结点是尾结点的条件是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "if  (p->next>p)"
+            },
+            {
+                "index": "B",
+                "text": "if  (p->next==NULL)"
+            },
+            {
+                "index": "C",
+                "text": "if  (p->next"
+            },
+            {
+                "index": "D",
+                "text": "if  (p->data==0)"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "16",
+        "title": "以下描述哪个是正确的（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "线性表的数据元素的存储位置一定是连续的"
+            },
+            {
+                "index": "B",
+                "text": "顺序表的数据元素的存储位置一定是连续的"
+            },
+            {
+                "index": "C",
+                "text": "链表的数据元素的存储位置一定不是连续的"
+            },
+            {
+                "index": "D",
+                "text": "线性表的数据元素的存储位置一定不是连续的"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "17",
+        "title": "已知顺序表包含100个数据，先在第15号位置插入1个新数据，接着删除第3号位置的数据，需要移动的数据总个数为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "18"
+            },
+            {
+                "index": "B",
+                "text": "84"
+            },
+            {
+                "index": "C",
+                "text": "184"
+            },
+            {
+                "index": "D",
+                "text": "188"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "18",
+        "title": "设某单链表包含10个结点，已知指针s指向一个新结点，指针p指向第4个结点，现在第4个结点之后插入这个新结点的两个语句为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "p->next  = s; s->next = p->next;"
+            },
+            {
+                "index": "B",
+                "text": "s->next  = p->next;  p->next  = s;"
+            },
+            {
+                "index": "C",
+                "text": "p->next  = s->next; s->next = p;"
+            },
+            {
+                "index": "D",
+                "text": "s->next = p;  p->next  = s->next;"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "19",
+        "title": "在数据结构概念中，数据的基本单位是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据段"
+            },
+            {
+                "index": "B",
+                "text": "数据项"
+            },
+            {
+                "index": "C",
+                "text": "数据表"
+            },
+            {
+                "index": "D",
+                "text": "数据元素"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "20",
+        "title": "在数据结构概念中，结构是描述（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据项的类型"
+            },
+            {
+                "index": "B",
+                "text": "数据元素之间的关系"
+            },
+            {
+                "index": "C",
+                "text": "数据成员的先后顺序"
+            },
+            {
+                "index": "D",
+                "text": "数据对象的取值范围"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "21",
+        "title": "在算法设计中，要求算法便于理解和修改是属于算法要求的（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确性"
+            },
+            {
+                "index": "B",
+                "text": "可读性"
+            },
+            {
+                "index": "C",
+                "text": "健壮性"
+            },
+            {
+                "index": "D",
+                "text": "效率高"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "22",
+        "title": "抽象数据类型ADT通过三方面描述，包括数据对象、数据操作和（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据范围"
+            },
+            {
+                "index": "B",
+                "text": "数据判断"
+            },
+            {
+                "index": "C",
+                "text": "数据关系"
+            },
+            {
+                "index": "D",
+                "text": "数据来源"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "23",
+        "title": "以下关于算法的描述，哪个是正确的（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "算法可以没有输入"
+            },
+            {
+                "index": "B",
+                "text": "算法可以包含无限个执行步骤"
+            },
+            {
+                "index": "C",
+                "text": "算法可以没有输出"
+            },
+            {
+                "index": "D",
+                "text": "算法的每个步骤允许带有歧义的"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "24",
+        "title": "在算法设计中，要求算法满足具体问题的需求是属于算法要求的（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确性"
+            },
+            {
+                "index": "B",
+                "text": "可读性"
+            },
+            {
+                "index": "C",
+                "text": "健壮性"
+            },
+            {
+                "index": "D",
+                "text": "效率高"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "25",
+        "title": "以下关于数据结构的描述，哪一个是正确的（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据原子是数据的最小独立单位"
+            },
+            {
+                "index": "B",
+                "text": "数据元素是数据的最小独立单位"
+            },
+            {
+                "index": "C",
+                "text": "一个数据项可以包含若干个数据元素"
+            },
+            {
+                "index": "D",
+                "text": "不能被计算机程序识别和处理的信息集合，不能称为数据"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    }
+]

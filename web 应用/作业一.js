@@ -1,0 +1,462 @@
+const dataList = [
+    {
+        "index": "1",
+        "title": "web标准的制定者是（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "微软"
+            },
+            {
+                "index": "B",
+                "text": "万维网联盟（W3C）"
+            },
+            {
+                "index": "C",
+                "text": "网景公司（Netscape）"
+            },
+            {
+                "index": "D",
+                "text": "谷歌"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "2",
+        "title": "用HTML标记语言编写一个简单的网页，网页最基本的结构是（  D  ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<html><head>…</head><frame>…</frame></html>"
+            },
+            {
+                "index": "B",
+                "text": "<html><title>…</title><body>…</body></html>"
+            },
+            {
+                "index": "C",
+                "text": "<html><title>…</title><frame>…</frame></html>"
+            },
+            {
+                "index": "D",
+                "text": "<html><head>…</head><body>…</body></html>"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "3",
+        "title": "下图（  ）的设置有助于搜索引擎在因特网上搜索到网页。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "关键字"
+            },
+            {
+                "index": "B",
+                "text": "META"
+            },
+            {
+                "index": "C",
+                "text": "说明"
+            },
+            {
+                "index": "D",
+                "text": "图片的尺寸"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "4",
+        "title": "（   ） 是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "URL"
+            },
+            {
+                "index": "B",
+                "text": "URI"
+            },
+            {
+                "index": "C",
+                "text": "WWW"
+            },
+            {
+                "index": "D",
+                "text": "HTTP"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "5",
+        "title": "如果站点服务器支持安全套接层(SSL)，那么连接到安全站点上的所有URL开头是(    )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "http://"
+            },
+            {
+                "index": "B",
+                "text": "https://"
+            },
+            {
+                "index": "C",
+                "text": "shttp://"
+            },
+            {
+                "index": "D",
+                "text": "SSL://"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "6",
+        "title": "关于W3C标准，下列说法错误的是(     )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "W3C标准是由W3C组织制定的一系列Web标准"
+            },
+            {
+                "index": "B",
+                "text": "*.htm,<SPAN>,<p>是符合W3C标准规范的书写方式"
+            },
+            {
+                "index": "C",
+                "text": "W3C标准主要包括XHTML、CSS、DOM和ECMAScript标准"
+            },
+            {
+                "index": "D",
+                "text": "W3C提倡内容与表现分离的Web结构"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "7",
+        "title": "在网页中，常见的图片格式有（   ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "JPG和GIF"
+            },
+            {
+                "index": "B",
+                "text": "JPG和PSD"
+            },
+            {
+                "index": "C",
+                "text": "PSD和BMP"
+            },
+            {
+                "index": "D",
+                "text": "PNG和SWF"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "8",
+        "title": "如果在catalog.htm中包含如下代码，则该HTML文档IE浏览器中打开后，用户单击此链接将(     )。 <A HREF=\"#novel\">小说</a>",
+        "listData": [
+            {
+                "index": "A",
+                "text": "使页面跳转到同一文件夹下名为“novel.html”的HTML文档"
+            },
+            {
+                "index": "B",
+                "text": "使页面跳转到同一文件夹下名为“小说.html”的HTML文档"
+            },
+            {
+                "index": "C",
+                "text": "使页面跳转到catalog.htm包含名为“novel”的锚记处"
+            },
+            {
+                "index": "D",
+                "text": "使页面跳转到同一文件夹下名为“小说.html”的HTML文档中名为“novel”的锚记处"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "index": "9",
+        "title": "想要使用户在单击超链接时，弹出一个新的网页窗口，代码是（    ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<A href=\"right.html\" target=\"_blank\">新闻</A>"
+            },
+            {
+                "index": "B",
+                "text": "<A href=\"right.html\" target=\"_parent\">新闻</A>"
+            },
+            {
+                "index": "C",
+                "text": "<A href=\"right.html\" target=\"_top\">新闻</A>"
+            },
+            {
+                "index": "D",
+                "text": "<A href=\"right.html\" target=\"_self\">新闻</A>"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "10",
+        "title": "下面的（    ）特殊符号表示的是空格。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "&quot"
+            },
+            {
+                "index": "B",
+                "text": "&nbsp"
+            },
+            {
+                "index": "C",
+                "text": "&amp"
+            },
+            {
+                "index": "D",
+                "text": "&copy"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "11",
+        "title": "在HTML中，<form method=”post”>，method表示(    )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "提交的方式"
+            },
+            {
+                "index": "B",
+                "text": "表单所用的脚本语言"
+            },
+            {
+                "index": "C",
+                "text": "提交的URL地址"
+            },
+            {
+                "index": "D",
+                "text": "表单的形式"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "12",
+        "title": "以下标记中，（  ）用于设置页面标题，且内容不在浏览器上显示。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<title>"
+            },
+            {
+                "index": "B",
+                "text": "<caption>"
+            },
+            {
+                "index": "C",
+                "text": "<p>"
+            },
+            {
+                "index": "D",
+                "text": "<head>"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "13",
+        "title": "在以下的 HTML 中，（   ）是正确引用外部样式表的方法。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<style src=\"mystyle.css\">"
+            },
+            {
+                "index": "B",
+                "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+            },
+            {
+                "index": "C",
+                "text": "<stylesheet>mystyle.css</stylesheet>"
+            },
+            {
+                "index": "D",
+                "text": "<a href=”mystyle.css”></a>"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "14",
+        "title": "下列CSS（    ）属性可以更改字体大小。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "text-size"
+            },
+            {
+                "index": "B",
+                "text": "font-size"
+            },
+            {
+                "index": "C",
+                "text": "text-style"
+            },
+            {
+                "index": "D",
+                "text": "font-style"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "15",
+        "title": "（  ）可以去掉文本超级链接的下划线。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "a {text-decoration:no underline}"
+            },
+            {
+                "index": "B",
+                "text": "a {underline:none}"
+            },
+            {
+                "index": "C",
+                "text": "a {decoration:no underline}"
+            },
+            {
+                "index": "D",
+                "text": "a {text-decoration:none}"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "16",
+        "title": "下列选项中不属于CSS 文本属性的是（    ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "font-size"
+            },
+            {
+                "index": "B",
+                "text": "text-transform"
+            },
+            {
+                "index": "C",
+                "text": "text-align"
+            },
+            {
+                "index": "D",
+                "text": "line-height"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "17",
+        "title": "如何让文本中每个单词都是大写字母开头进行显示？（   ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "text-transform:uppercase"
+            },
+            {
+                "index": "B",
+                "text": "text-transform:smart"
+            },
+            {
+                "index": "C",
+                "text": "text-transform:capitalize"
+            },
+            {
+                "index": "D",
+                "text": "无法用CSS做到这点"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "index": "18",
+        "title": "为了定义元素与其边框直接的空白区域，可以使用padding属性，是否可以将padding设为负值？（    ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "可以"
+            },
+            {
+                "index": "B",
+                "text": "不可以"
+            },
+            {
+                "index": "C",
+                "text": "标准中没有规定"
+            },
+            {
+                "index": "D",
+                "text": "不同浏览器是不同的"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "19",
+        "title": "引用外部样式表的元素应该放在（    ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "HTML文档的开始的位置"
+            },
+            {
+                "index": "B",
+                "text": "HTML文档的结束的位置"
+            },
+            {
+                "index": "C",
+                "text": "在head元素中"
+            },
+            {
+                "index": "D",
+                "text": "在body元素中"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "index": "20",
+        "title": "下面的描述正确的是(     )         #menu{         font-size:14px;         }",
+        "listData": [
+            {
+                "index": "A",
+                "text": "menu是标签选择器"
+            },
+            {
+                "index": "B",
+                "text": "menu是元素选择器"
+            },
+            {
+                "index": "C",
+                "text": "menu是类选择器"
+            },
+            {
+                "index": "D",
+                "text": "menu是ID选择器"
+            }
+        ],
+        "answer": "D"
+    }
+]

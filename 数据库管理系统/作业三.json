@@ -1,0 +1,460 @@
+[
+    {
+        "index": "1",
+        "title": "关系模型的实体完整性，是在SQL语句 CREATE  TABLE中用什么短语来定义（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "FOREIGN KEY"
+            },
+            {
+                "index": "B",
+                "text": "PRIMARY KEY"
+            },
+            {
+                "index": "C",
+                "text": "UNIQUE"
+            },
+            {
+                "index": "D",
+                "text": "REFERENCES"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "在 CREATE TABLE 时，不能用于实现用户定义完整性的子句是哪一项？( )",
+        "listData": [
+            {
+                "index": "A",
+                "text": "UNIQUE"
+            },
+            {
+                "index": "B",
+                "text": "NOT NULL"
+            },
+            {
+                "index": "C",
+                "text": "NULL"
+            },
+            {
+                "index": "D",
+                "text": "CHECK"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "关系R的属性A参照引用关系T的属性A，T的某条元组对应的A属性值在R中出现，当要删除T的这条元组时，系统可以采用的策略不包括（  ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "拒绝（NO ACTION）执行"
+            },
+            {
+                "index": "B",
+                "text": "级联（CASCADE）操作"
+            },
+            {
+                "index": "C",
+                "text": "设置为空值（SET-NULL）"
+            },
+            {
+                "index": "D",
+                "text": "限制（RESTRICT）执行该操作"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "完整性约束命名子句\nCONSTRAINT <完整性约束条件名><完整性约束条件>\n<完整性约束条件>包括NOT NULL、UNIQUE等，请从下列选项中选出不用于构造完整性约束条件的短语（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "CHECK短语"
+            },
+            {
+                "index": "B",
+                "text": "PRIMARY KEY短语"
+            },
+            {
+                "index": "C",
+                "text": "FOREIGN KEY短语"
+            },
+            {
+                "index": "D",
+                "text": "ALTER短语"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "下列关于定义触发器的语法说明错误的选项是（ ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "表的拥有者才可以在表上创建触发器"
+            },
+            {
+                "index": "B",
+                "text": "触发器可以定义在基本表上，也可以定义在视图上"
+            },
+            {
+                "index": "C",
+                "text": "同一模式下，触发器名必须是唯一的，触发器名和表名必须在同一模式下"
+            },
+            {
+                "index": "D",
+                "text": "触发器只能定义在基本表上，不能定义在视图上"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "关系模式由五部分组成，是一个五元组：R(U, D, DOM, F)，其中关系名R是符号化的元组语义，U为一组属性，D为属性组U中的属性所来自的域，DOM为属性到域的映射，F为属性组U上的一组数据依赖。模式设计重点关注的是五元组中的哪三个部分？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "R(U, D)"
+            },
+            {
+                "index": "B",
+                "text": "R(D,F)"
+            },
+            {
+                "index": "C",
+                "text": "R(D, DOM)"
+            },
+            {
+                "index": "D",
+                "text": "R(U, F)"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "R(U)是一个属性集U上的关系模式，X和Y也是属性集且是U的子集，如果X→Y(Y⊈X)，Y↛X（Y 不是函数确定 X），Y→Z，Z⊈Y, 则称Z对X（ ）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "函数依赖"
+            },
+            {
+                "index": "B",
+                "text": "完全函数依赖"
+            },
+            {
+                "index": "C",
+                "text": "部分函数依赖"
+            },
+            {
+                "index": "D",
+                "text": "传递函数依赖"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "哪种范式要求属性中没有对候选码的传递依赖。（　）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "1NF"
+            },
+            {
+                "index": "B",
+                "text": "2NF"
+            },
+            {
+                "index": "C",
+                "text": "3NF"
+            },
+            {
+                "index": "D",
+                "text": "4NF"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "关系数据库管理系统按照实体完整性规则自动进行检查。如果不满足，则拒绝执行。检查包括：（ ）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "检查主码值是否由单个属性构成"
+            },
+            {
+                "index": "B",
+                "text": "检查主码值是否唯一"
+            },
+            {
+                "index": "C",
+                "text": "检查主码值是否正确"
+            },
+            {
+                "index": "D",
+                "text": "检查主码的各个属性是否为空"
+            }
+        ],
+        "answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "关系模型的参照完整性定义方法（ ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "CREATE  TABLE中用PRIMARY KEY定义哪些列为外码"
+            },
+            {
+                "index": "B",
+                "text": "在CREATE  TABLE中用FOREIGN KEY短语定义哪些列为外码"
+            },
+            {
+                "index": "C",
+                "text": "同时用REFERENCES短语指明这些外码参照哪些表的主码"
+            },
+            {
+                "index": "D",
+                "text": "CREATE  TABLE中用UNIQUE定义哪些列为外码"
+            }
+        ],
+        "answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "数据的完整性描述正确的选项（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "防止数据库中存在不符合语义的数据，也就是防止数据库中存在不正确的数据"
+            },
+            {
+                "index": "B",
+                "text": "保护数据库 防止恶意的破坏和非法的存取"
+            },
+            {
+                "index": "C",
+                "text": "防范对象：不合语义的、不正确的数据"
+            },
+            {
+                "index": "D",
+                "text": "防范对象：非法用户和非法操作"
+            }
+        ],
+        "answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "在选课关系SC(Sno, Cno, Grade)中，Sno表示学号，Cno表示课程号, Grade代表成绩，这个关系模式属于哪种范式（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "1NF"
+            },
+            {
+                "index": "B",
+                "text": "2NF"
+            },
+            {
+                "index": "C",
+                "text": "第一范式"
+            },
+            {
+                "index": "D",
+                "text": "第二范式"
+            }
+        ],
+        "answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "设R(U)是一个属性集U上的关系模式，X和Y是U的子集。若对于R(U)的任意一个可能的关系r，r 中不可能存在两个元组在X上的属性值相等， 而在Y上的属性值不等， 则称X和Y之间的函数依赖关系为（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "“X函数确定Y”"
+            },
+            {
+                "index": "B",
+                "text": "“Y函数确定X”"
+            },
+            {
+                "index": "C",
+                "text": "“Y函数依赖于X”"
+            },
+            {
+                "index": "D",
+                "text": "“X函数依赖于Y”"
+            }
+        ],
+        "answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "在选课关系SC(Sno, Cno, Grade，Sdept)中，Sno表示学号，Cno表示课程号, Grade代表成绩，Sdept代表学生所在系，这个关系模式属于哪种范式（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "1NF"
+            },
+            {
+                "index": "B",
+                "text": "2NF"
+            },
+            {
+                "index": "C",
+                "text": "第一范式"
+            },
+            {
+                "index": "D",
+                "text": "第二范式"
+            }
+        ],
+        "answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "对于参照完整性，除了应该定义外码，还应定义外码列是否允许空值。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "关系数据库管理系统提供了定义和检验用户定义完整性的机制，不必由应用程序承担。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "函数依赖指关系模式的某个或某些关系实例满足的约束条件。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "函数依赖是语义范畴的概念，只能根据数据的语义来确定一个函数依赖。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "对于任一关系模式，平凡函数依赖都是必然成立的，它不反映新的语义。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "从第一范式到第五范式存在依次顺序包含联系，第一范式包含于第五范式。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    }
+]

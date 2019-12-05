@@ -1,0 +1,692 @@
+[
+    {
+        "index": "1",
+        "title": "以下哪一项的内聚级别最高？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "功能内聚"
+            },
+            {
+                "index": "B",
+                "text": "通信内聚"
+            },
+            {
+                "index": "C",
+                "text": "过程内聚"
+            },
+            {
+                "index": "D",
+                "text": "时间内聚"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "( )在软件工程过程中处于技术核心地位。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "需求分析"
+            },
+            {
+                "index": "B",
+                "text": "软件设计"
+            },
+            {
+                "index": "C",
+                "text": "编码实现"
+            },
+            {
+                "index": "D",
+                "text": "测试"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "面向数据流的设计方法中，一般将信息流分为（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据流和控制流"
+            },
+            {
+                "index": "B",
+                "text": "变换流和控制流"
+            },
+            {
+                "index": "C",
+                "text": "事务流和控制流"
+            },
+            {
+                "index": "D",
+                "text": "变换流和事务流"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "使用白盒测试技术设计测试用例时，（）是最强的覆盖标准。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "语句覆盖"
+            },
+            {
+                "index": "B",
+                "text": "路径覆盖"
+            },
+            {
+                "index": "C",
+                "text": "条件组合覆盖"
+            },
+            {
+                "index": "D",
+                "text": "判定覆盖"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "应用逻辑覆盖技术设计白盒测试方案时，以下哪一种覆盖标准最强？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "语句覆盖"
+            },
+            {
+                "index": "B",
+                "text": "判定覆盖"
+            },
+            {
+                "index": "C",
+                "text": "条件覆盖"
+            },
+            {
+                "index": "D",
+                "text": "判定/条件覆盖"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "白盒测试在测试过程的（）进行。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "早期"
+            },
+            {
+                "index": "B",
+                "text": "中期"
+            },
+            {
+                "index": "C",
+                "text": "晚期"
+            },
+            {
+                "index": "D",
+                "text": "任何时候"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "选择程序设计语言时，一般应尽量选择（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "机器语言"
+            },
+            {
+                "index": "B",
+                "text": "汇编语言"
+            },
+            {
+                "index": "C",
+                "text": "高级语言"
+            },
+            {
+                "index": "D",
+                "text": "PDL"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "每当新模块集成进来时，需要进行（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "单元测试"
+            },
+            {
+                "index": "B",
+                "text": "验收测试"
+            },
+            {
+                "index": "C",
+                "text": "回归测试"
+            },
+            {
+                "index": "D",
+                "text": "β测试"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "对象是由描述该对象属性的数据以及可以对这些数据施加的所有 ( )封装在一起构成的统一体。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "操作"
+            },
+            {
+                "index": "B",
+                "text": "算法"
+            },
+            {
+                "index": "C",
+                "text": "引用"
+            },
+            {
+                "index": "D",
+                "text": "以上均不正确"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "在面向对象的软件技术中，（）可以像父类对象那样使用。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "子类"
+            },
+            {
+                "index": "B",
+                "text": "子类对象"
+            },
+            {
+                "index": "C",
+                "text": "子类数据"
+            },
+            {
+                "index": "D",
+                "text": "子类接口"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "软件设计的基本原理包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "模块化"
+            },
+            {
+                "index": "B",
+                "text": "抽象"
+            },
+            {
+                "index": "C",
+                "text": "信息隐藏"
+            },
+            {
+                "index": "D",
+                "text": "逐步求精"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "下列哪些图形工具可用于软件设计？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "结构图"
+            },
+            {
+                "index": "B",
+                "text": "ER图"
+            },
+            {
+                "index": "C",
+                "text": "IPO图"
+            },
+            {
+                "index": "D",
+                "text": "层次图"
+            }
+        ],
+        "answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "下列哪些工具可用于过程设计？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "DFD"
+            },
+            {
+                "index": "B",
+                "text": "程序流程图"
+            },
+            {
+                "index": "C",
+                "text": "盒图"
+            },
+            {
+                "index": "D",
+                "text": "PAD图"
+            }
+        ],
+        "answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "评价模块化方案的标准包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "模块可分解性"
+            },
+            {
+                "index": "B",
+                "text": "模块可组装性"
+            },
+            {
+                "index": "C",
+                "text": "模块可理解性"
+            },
+            {
+                "index": "D",
+                "text": "模块连续性"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "黑盒测试（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "又称“结构测试”"
+            },
+            {
+                "index": "B",
+                "text": "又称“功能测试”"
+            },
+            {
+                "index": "C",
+                "text": "在程序接口进行测试"
+            },
+            {
+                "index": "D",
+                "text": "检验程序中的每条通路是否都能按预定要求正确工作"
+            }
+        ],
+        "answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "下面哪些测试方法属于白盒测试？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "等价类划分"
+            },
+            {
+                "index": "B",
+                "text": "边界值分析"
+            },
+            {
+                "index": "C",
+                "text": "错误推测"
+            },
+            {
+                "index": "D",
+                "text": "逻辑覆盖测试"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "确认测试工作包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "软件配置复查"
+            },
+            {
+                "index": "B",
+                "text": "α测试"
+            },
+            {
+                "index": "C",
+                "text": "β测试"
+            },
+            {
+                "index": "D",
+                "text": "回归测试"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "面向对象模型的三种形式包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "对象模型"
+            },
+            {
+                "index": "B",
+                "text": "动态模型"
+            },
+            {
+                "index": "C",
+                "text": "功能模型"
+            },
+            {
+                "index": "D",
+                "text": "数据模型"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "类图的3个抽象层次包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "概念层"
+            },
+            {
+                "index": "B",
+                "text": "说明层"
+            },
+            {
+                "index": "C",
+                "text": "实现层"
+            },
+            {
+                "index": "D",
+                "text": "主题层"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "类的图形符号包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "类名"
+            },
+            {
+                "index": "B",
+                "text": "属性列表"
+            },
+            {
+                "index": "C",
+                "text": "操作列表"
+            },
+            {
+                "index": "D",
+                "text": "属性、操作的可见性"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "一个模块不通过正常入口转到另一模块内部属于内容耦合。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "改进程序的执行效率不会引入错误。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "白盒测试无需考虑模块内部的执行过程和程序结构，只要了解模块的功能即可。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "软件测试是为了纠正错误而执行程序的过程。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "Beta测试由软件的最终用户们在一个或多个客户场所进行。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "当测试用例集足够完备时，可以不进行白盒测试而只进行黑盒测试。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "单元测试通常只采用黑盒测试。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "每个对象应该知道怎样完成自己负责提供的服务功能，使用者只需向对象发送消息提出要求即可。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "面向对象方法学的出发点和基本原则，是尽可能模拟人类习惯的思维方式，使开发软件的方法与过程尽可能接近人类认识世界解决问题的方法与过程。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "面向对象程序设计方法用对象分解取代功能分解。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    }
+]

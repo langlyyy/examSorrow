@@ -1,0 +1,686 @@
+[
+    {
+        "index": "1",
+        "title": "软件工程包含技术和（）两方面的内容。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "经济"
+            },
+            {
+                "index": "B",
+                "text": "管理"
+            },
+            {
+                "index": "C",
+                "text": "哲学"
+            },
+            {
+                "index": "D",
+                "text": "法律"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "软件工程的目标是在（）限额内按时完成开发和修改软件的工作。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "成本"
+            },
+            {
+                "index": "B",
+                "text": "质量"
+            },
+            {
+                "index": "C",
+                "text": "人员数量"
+            },
+            {
+                "index": "D",
+                "text": "投资"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "以下哪一项不属于软件生命周期模型？（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "瀑布模型"
+            },
+            {
+                "index": "B",
+                "text": "快速原型模型"
+            },
+            {
+                "index": "C",
+                "text": "螺旋模型"
+            },
+            {
+                "index": "D",
+                "text": "对象模型"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "瀑布模型各阶段之间具有顺序性和（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "反馈性"
+            },
+            {
+                "index": "B",
+                "text": "依赖性"
+            },
+            {
+                "index": "C",
+                "text": "同构性"
+            },
+            {
+                "index": "D",
+                "text": "统一性"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "采用增量模型开发软件时，每次提交一个满足用户需求子集的（）的产品。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "不包含用户界面"
+            },
+            {
+                "index": "B",
+                "text": "模拟"
+            },
+            {
+                "index": "C",
+                "text": "文档化"
+            },
+            {
+                "index": "D",
+                "text": "可运行"
+            }
+        ],
+        "answer": [
+            "D"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "数据字典应在（）阶段建立。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "可行性研究"
+            },
+            {
+                "index": "B",
+                "text": "分析"
+            },
+            {
+                "index": "C",
+                "text": "设计"
+            },
+            {
+                "index": "D",
+                "text": "编码"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "实体-关系图可用于对( )进行描述。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "功能"
+            },
+            {
+                "index": "B",
+                "text": "数据对象"
+            },
+            {
+                "index": "C",
+                "text": "控制流"
+            },
+            {
+                "index": "D",
+                "text": "以上都不正确"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "数据存储是处于（）状态的数据。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "流动"
+            },
+            {
+                "index": "B",
+                "text": "静止"
+            },
+            {
+                "index": "C",
+                "text": "跃迁"
+            },
+            {
+                "index": "D",
+                "text": "加工"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "事件就是引起系统做动作或（和）状态转换的（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "控制信息"
+            },
+            {
+                "index": "B",
+                "text": "信息流"
+            },
+            {
+                "index": "C",
+                "text": "输入数据"
+            },
+            {
+                "index": "D",
+                "text": "输出数据"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "（）是复审需求分析成果时的焦点。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "代码"
+            },
+            {
+                "index": "B",
+                "text": "需求规格说明"
+            },
+            {
+                "index": "C",
+                "text": "模型"
+            },
+            {
+                "index": "D",
+                "text": "计划"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "软件是（）的完整集合。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "程序"
+            },
+            {
+                "index": "B",
+                "text": "数据"
+            },
+            {
+                "index": "C",
+                "text": "相关文档"
+            },
+            {
+                "index": "D",
+                "text": "开发工具"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "软件工程关注于（）程序的构造。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "大型"
+            },
+            {
+                "index": "B",
+                "text": "中型"
+            },
+            {
+                "index": "C",
+                "text": "小型"
+            },
+            {
+                "index": "D",
+                "text": "微型"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "1968年的（）会议上提出了“软件工程”的概念。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "NATO"
+            },
+            {
+                "index": "B",
+                "text": "NASA"
+            },
+            {
+                "index": "C",
+                "text": "CEC"
+            },
+            {
+                "index": "D",
+                "text": "ISO"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "采用快速原型模型开发软件时，原型系统可用于（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "捕获和理解用户需求"
+            },
+            {
+                "index": "B",
+                "text": "帮助进行用户界面设计"
+            },
+            {
+                "index": "C",
+                "text": "支持软件结构设计"
+            },
+            {
+                "index": "D",
+                "text": "测试目标系统性能"
+            }
+        ],
+        "answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "喷泉模型的特点包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "迭代无缝"
+            },
+            {
+                "index": "B",
+                "text": "强调重用"
+            },
+            {
+                "index": "C",
+                "text": "风险驱动"
+            },
+            {
+                "index": "D",
+                "text": "文档驱动"
+            }
+        ],
+        "answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "（ ）应用了迭代的思想。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "瀑布模型"
+            },
+            {
+                "index": "B",
+                "text": "喷泉模型"
+            },
+            {
+                "index": "C",
+                "text": "螺旋模型"
+            },
+            {
+                "index": "D",
+                "text": "增量模型"
+            }
+        ],
+        "answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "DFD中的一个处理框可以表示（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "单个程序"
+            },
+            {
+                "index": "B",
+                "text": "一系列程序"
+            },
+            {
+                "index": "C",
+                "text": "一个程序模块"
+            },
+            {
+                "index": "D",
+                "text": "人工处理过程"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "DFD的基本符号包括（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据的源点或终点"
+            },
+            {
+                "index": "B",
+                "text": "变换数据的处理"
+            },
+            {
+                "index": "C",
+                "text": "数据存储"
+            },
+            {
+                "index": "D",
+                "text": "数据流"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "（）通常不会出现在DFD中。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "输入数据处理"
+            },
+            {
+                "index": "B",
+                "text": "出错处理"
+            },
+            {
+                "index": "C",
+                "text": "内务处理（如打开/关闭文件）"
+            },
+            {
+                "index": "D",
+                "text": "数据合并"
+            }
+        ],
+        "answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "支持分层细化的图形有（ ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "数据字典"
+            },
+            {
+                "index": "B",
+                "text": "ER图"
+            },
+            {
+                "index": "C",
+                "text": "DFD"
+            },
+            {
+                "index": "D",
+                "text": "STD"
+            }
+        ],
+        "answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "C语言编译器是一种CASE工具。()",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "软件设计又可分为概要设计和详细设计两个阶段。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "不完善的系统定义往往是导致软件项目失败的主要原因。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "喷泉模型只能应用于面向对象软件开发方法。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "瀑布模型不能用于面向对象软件开发。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "增量模型不利于快速获得用户反馈。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "DFD提供了行为建模的机制。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "需求分析是发现、求精、建模、规格说明和复审的过程。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "9",
+        "title": "结构化分析实质上就是一种建模活动。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "10",
+        "title": "数据字典是对数据流图中的数据流、加工、数据存储、数据的源和终点进行详细定义。（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    }
+]

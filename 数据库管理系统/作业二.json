@@ -1,0 +1,465 @@
+[
+    {
+        "index": "1",
+        "title": "对表中数据进行删除的操作是（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "DELETE"
+            },
+            {
+                "index": "B",
+                "text": "DROP"
+            },
+            {
+                "index": "C",
+                "text": "ALTER"
+            },
+            {
+                "index": "D",
+                "text": "UPDATE"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "视图是数据库系统三级模式中的（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "外模式"
+            },
+            {
+                "index": "B",
+                "text": "模式"
+            },
+            {
+                "index": "C",
+                "text": "内模式"
+            },
+            {
+                "index": "D",
+                "text": "模式映像"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "SQL的数据定义语句中删除操作的关键词是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "CREATE"
+            },
+            {
+                "index": "B",
+                "text": "DROP"
+            },
+            {
+                "index": "C",
+                "text": "ALTER"
+            },
+            {
+                "index": "D",
+                "text": "DELETE"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "强制存取控制策略是TCSEC/TDI哪一集安全级别的特色（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "C1"
+            },
+            {
+                "index": "B",
+                "text": "C2"
+            },
+            {
+                "index": "C",
+                "text": "B1"
+            },
+            {
+                "index": "D",
+                "text": "B2"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "在数据加密技术中，原始数据通过某种加密算法变换为不可直接识别的格式称为，请选择最恰当选项（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "密钥"
+            },
+            {
+                "index": "B",
+                "text": "密文"
+            },
+            {
+                "index": "C",
+                "text": "档案"
+            },
+            {
+                "index": "D",
+                "text": "密码"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "GRANT SELECT  ON TABLE SC   TO PUBLIC;",
+        "listData": [
+            {
+                "index": "A",
+                "text": "把对表SC的查询权限授予名字为PUBLIC的用户"
+            },
+            {
+                "index": "B",
+                "text": "把对表SC的选择权限授予名字为PUBLIC的用户"
+            },
+            {
+                "index": "C",
+                "text": "把对表SC的查询权限授予所有用户"
+            },
+            {
+                "index": "D",
+                "text": "把对表SC的选择权限授予所有用户"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "7",
+        "title": "在对用户授予列INSERT权限时，一定要包含对（）的INSERT权限，否则用户的插入会因为空值被拒绝。请为前面括号内容选择最恰当选项。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "属性名"
+            },
+            {
+                "index": "B",
+                "text": "主码属性"
+            },
+            {
+                "index": "C",
+                "text": "非主码属性"
+            },
+            {
+                "index": "D",
+                "text": "属性值"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "8",
+        "title": "哪个安全标准于1999年被ISO采用为国际标准并于 2001年被我国采用为国家标准（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "TCSECV2.1版"
+            },
+            {
+                "index": "B",
+                "text": "ITSECV2.1版"
+            },
+            {
+                "index": "C",
+                "text": "CC V2.1版"
+            },
+            {
+                "index": "D",
+                "text": "CTCPECV2.1版"
+            }
+        ],
+        "answer": [
+            "C"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "请下列选项选出SQL语言的数据定义功能（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "模式定义"
+            },
+            {
+                "index": "B",
+                "text": "表定义"
+            },
+            {
+                "index": "C",
+                "text": "视图定义"
+            },
+            {
+                "index": "D",
+                "text": "索引定义"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "HAVING短语与WHERE子句的区别描述正确的选项有（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "WHERE子句作用于基表或视图，从中选择满足条件的元组"
+            },
+            {
+                "index": "B",
+                "text": "HAVING短语作用于组，从中选择满足条件的组"
+            },
+            {
+                "index": "C",
+                "text": "WHERE子句中可以使用聚集函数作为条件表达式"
+            },
+            {
+                "index": "D",
+                "text": "HAVING短语中可以使用聚集函数作为条件表达式"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "CC提出国际公认的表述信息技术安全性的结构，把信息产品的安全要求分为。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "自主存取控制"
+            },
+            {
+                "index": "B",
+                "text": "安全功能要求"
+            },
+            {
+                "index": "C",
+                "text": "安全保证要求"
+            },
+            {
+                "index": "D",
+                "text": "强制存取控制"
+            }
+        ],
+        "answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "CC提出了评估保证级（Evaluation Assurance Level，EAL），从EAL1至EAL7由低到高共分为七级，EAL2至EAL7分别与TCSEC/TDI的安全级别C1到A1对应\n下列对应关系正确的是（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "EAL2\\EAL3对应C1\\C2"
+            },
+            {
+                "index": "B",
+                "text": "EAL4\\EAL5\\EAL6对应B1\\B2\\B3"
+            },
+            {
+                "index": "C",
+                "text": "EAL1对应A1"
+            },
+            {
+                "index": "D",
+                "text": "EAL7对应A1"
+            }
+        ],
+        "answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "GRANT语句的中的参数WITH GRANT OPTION 的作用是（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "带有这个参数，表示用户“可以再授予”这个权限给其它用户。"
+            },
+            {
+                "index": "B",
+                "text": "带有这个参数，表示用户执行GRANT语句中指定操作时，系统首先检查用户是否具有这个权限。"
+            },
+            {
+                "index": "C",
+                "text": "没有指定这个参数表示用户“不可以再授予”这个权限给其它用户。"
+            },
+            {
+                "index": "D",
+                "text": "没有指定这个参数表示用户执行GRANT语句中指定操作时，系统不检查用户是否具有这个权限。"
+            }
+        ],
+        "answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "关于强制存取控制描述正确的有（）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "先执行强制存取控制检查用户对数据的权限，再执行自主存取控制检查用户对数据的权限。两种机制共同构成数据库管理系统的安全机制"
+            },
+            {
+                "index": "B",
+                "text": "先执行自主存取控制检查用户对数据的权限，再执行强制存取控制规则检查用户对数据的权限。两种机制共同构成数据库管理系统的安全机制"
+            },
+            {
+                "index": "C",
+                "text": "仅当主体的许可证级别大于或等于客体的密级时，该主体才能读取相应的客体"
+            },
+            {
+                "index": "D",
+                "text": "仅当主体的许可证级别小于或等于客体的密级时，该主体才能写相应的客体，用于防止数据向低安全级别泄漏"
+            }
+        ],
+        "answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "index": "1",
+        "title": "不是所有的视图都可以进行更新，但视图都可以进行插入。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "SQL语句中表达某个属性X为空，可以使用WHERE X = NULL 。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "SQL语句中逻辑运算符 AND 和 OR 的优先级是一样的。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "目前，没有一个数据库系统能够支持SQL标准的所有概念和特性",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "A"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "TCSEC/TDI安全级别划分，各安全级别之间具有一种偏序向下兼容的关系，例如C1级提供的安全保护要包含的A1所有保护要求，同时提供更多或更完善的保护能力。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "GRANT语句支持循环授权。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "正确"
+            },
+            {
+                "index": "B",
+                "text": "错误"
+            }
+        ],
+        "answer": [
+            "B"
+        ]
+    }
+]

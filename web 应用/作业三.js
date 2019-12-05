@@ -1,0 +1,442 @@
+const dataList = [
+    {
+        "index": "1",
+        "title": "HTML 指的是？",
+        "listData": [
+            {
+                "index": "A",
+                "text": "超文本标记语言（Hyper Text Markup Language）"
+            },
+            {
+                "index": "B",
+                "text": "家庭工具标记语言（Home Tool Markup Language）"
+            },
+            {
+                "index": "C",
+                "text": "超链接和文本标记语言（Hyperlinks and Text Markup Language）"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "2",
+        "title": "如何产生带有圆点列表符号的列表？",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<dl>"
+            },
+            {
+                "index": "B",
+                "text": "<list>"
+            },
+            {
+                "index": "C",
+                "text": "<ol>"
+            },
+            {
+                "index": "D",
+                "text": "<ul>"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "3",
+        "title": "下面关于DIV和SPAN标记的描述，错误的是(　　) 。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "DIV默认情况下是块模式，即标记前后有类似换行符一样的功能；"
+            },
+            {
+                "index": "B",
+                "text": "SPAN默认情况下是行模式，即标记前后内容在同行显示；"
+            },
+            {
+                "index": "C",
+                "text": "<div>元素本身没有特定的含义和样式，常用于确定一个块级文本区，这样使文档结构清晰。"
+            },
+            {
+                "index": "D",
+                "text": "前后两个DIV标记块的内容，不能出现在同一行；"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "4",
+        "title": "如何在新窗口打开链接？",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<a href=\"url\" new>"
+            },
+            {
+                "index": "B",
+                "text": "<a href=\"url\" target=\"_blank\">"
+            },
+            {
+                "index": "C",
+                "text": "<a href=\"url\"target=\"new\">"
+            },
+            {
+                "index": "D",
+                "text": "<a href=\"url\" target=\"_parent\">"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "5",
+        "title": "我们想要为网页中的文字加上超链接，可以采用哪个标记达到要求？",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<LINK>"
+            },
+            {
+                "index": "B",
+                "text": "<HREF>"
+            },
+            {
+                "index": "C",
+                "text": "<A>"
+            },
+            {
+                "index": "D",
+                "text": "<B>"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "index": "6",
+        "title": "以下选项中，哪个全部都是表格标签？",
+        "listData": [
+            {
+                "index": "A",
+                "text": "<table><head><tfoot>"
+            },
+            {
+                "index": "B",
+                "text": "<table><tr><td>"
+            },
+            {
+                "index": "C",
+                "text": "<table><tr><tt>"
+            },
+            {
+                "index": "D",
+                "text": "<thead><body><tr>"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "7",
+        "title": "下列不属于html5中语义元素的是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "nav"
+            },
+            {
+                "index": "B",
+                "text": "section"
+            },
+            {
+                "index": "C",
+                "text": "div"
+            },
+            {
+                "index": "D",
+                "text": "div"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "index": "8",
+        "title": "下列不属于HTML5表单新增元素的是（）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "number"
+            },
+            {
+                "index": "B",
+                "text": "range"
+            },
+            {
+                "index": "C",
+                "text": "email"
+            },
+            {
+                "index": "D",
+                "text": "nav"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "9",
+        "title": "关于下列代码，描述错误的是（    ）。div{animation: mymove 5s;}@keyframesmymove{from {background: red;}to {background: yellow;}}",
+        "listData": [
+            {
+                "index": "A",
+                "text": "动画名称为mymove,并将其绑定在div元素上"
+            },
+            {
+                "index": "B",
+                "text": "时长：5 秒"
+            },
+            {
+                "index": "C",
+                "text": "关键词 \"from\" 和 \"to\"，等同于 0% 和 100%"
+            },
+            {
+                "index": "D",
+                "text": "当使用按animation属性可以忽略时长，使用默认时长"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "10",
+        "title": "有一样式表规则：H3 {color : blue ；font-size : 10pt}，以下说法正确的是（ ）",
+        "listData": [
+            {
+                "index": "A",
+                "text": "H3是选择器"
+            },
+            {
+                "index": "B",
+                "text": "blue属性，color是属性值"
+            },
+            {
+                "index": "C",
+                "text": "样式表中的冒号(:)可以用 = 替代"
+            },
+            {
+                "index": "D",
+                "text": "这个样式表属于类样式表"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "11",
+        "title": "下列属于正确样式表规则的是（ ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "H2{background-color: blue :font-size : 10pt}"
+            },
+            {
+                "index": "B",
+                "text": "H 2{background-color:blue :font-size : 10pt}"
+            },
+            {
+                "index": "C",
+                "text": "H2{background-color; blue :font-size : 10pt}"
+            },
+            {
+                "index": "D",
+                "text": "H2{background-color: blue;font-size : 10pt}"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "12",
+        "title": "下列说法正确的是( )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "*是通用选择器"
+            },
+            {
+                "index": "B",
+                "text": "如果ghgh是id的值，那么将其前景色设为黄色的css规则是#ghgh{background-color：yellow;}"
+            },
+            {
+                "index": "C",
+                "text": "如果ghgh是class的值，那么将其前景色设为黄色的css规则是.ghgh{background-color：yellow;}"
+            },
+            {
+                "index": "D",
+                "text": "设置h3标签的字号是14px，css规则是#h3{font-size:14px;}"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "13",
+        "title": "下面的css样式中，代表后代选择器的是(    )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "p{font-size:12px;}"
+            },
+            {
+                "index": "B",
+                "text": "h1 .txt{color:red;}"
+            },
+            {
+                "index": "C",
+                "text": "h1.txt,li{color:red;}"
+            },
+            {
+                "index": "D",
+                "text": "#end{font-size:14px;}"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "14",
+        "title": "规则*[title] {color:red;}的功能是（  ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "包含标题（title）的所有元素变为红色"
+            },
+            {
+                "index": "B",
+                "text": "将所有属性值为title的元素变为红色"
+            },
+            {
+                "index": "C",
+                "text": "将第一个值为title的元素变为红色"
+            },
+            {
+                "index": "D",
+                "text": "将第一个有title标题的元素变为红色"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "15",
+        "title": "阅读下面HTML代码，若要使<dt>和<dd>标签在同一行显示，下面选项中的CSS书写不正确的是(    )。<dl><dt>用户名：</dt><dd><input type=\"text\" name=\"userName\" size=\"12\" /></dd></dl>",
+        "listData": [
+            {
+                "index": "A",
+                "text": "dldt{ float:left; }"
+            },
+            {
+                "index": "B",
+                "text": "dd{ float:left; }"
+            },
+            {
+                "index": "C",
+                "text": "dldt, dl dd{ float:left; }"
+            },
+            {
+                "index": "D",
+                "text": "dl{ display:inline; }"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "index": "16",
+        "title": "以下关于DIV+CSS布局的说法正确的是(    )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "DIV+CSS布局，具有简洁高效、内容样式分离并且利于改版等特点"
+            },
+            {
+                "index": "B",
+                "text": "DIV+CSS布局这个概念说明布局过程中全部使用<div>标签实现"
+            },
+            {
+                "index": "C",
+                "text": "DIV+CSS布局不能与表格布局同时使用"
+            },
+            {
+                "index": "D",
+                "text": "DIV+CSS布局出现以后，其它的布局方式就被淘汰了"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "17",
+        "title": "以下哪种布局模型会导致元素塌陷（ ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "浮动模型"
+            },
+            {
+                "index": "B",
+                "text": "层模型"
+            },
+            {
+                "index": "C",
+                "text": "盒子模型"
+            },
+            {
+                "index": "D",
+                "text": "流动模型"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "18",
+        "title": "下列代码设置div圆角矩形的是（  ）。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "border-radius:15px;"
+            },
+            {
+                "index": "B",
+                "text": "border-style: dotted"
+            },
+            {
+                "index": "C",
+                "text": "border-style:ridge"
+            },
+            {
+                "index": "D",
+                "text": "text-decoration: overline"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "index": "19",
+        "title": "关于Filter的opacity()函数说法错误的是(   )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "值为0%则是完全透明"
+            },
+            {
+                "index": "B",
+                "text": "值为0%则图像无变化"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "index": "20",
+        "title": "关于animation的叙述错误的是(   )。",
+        "listData": [
+            {
+                "index": "A",
+                "text": "animation-duration规定完在动画开始之前的延迟"
+            },
+            {
+                "index": "B",
+                "text": "animation-timing-function定义速度曲线"
+            }
+        ],
+        "answer": "A"
+    }
+]
