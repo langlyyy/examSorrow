@@ -1,4 +1,4 @@
-const dataList = [
+[
     {
         "index": "1.",
         "title": "使用CSS设置格式时，p em{color:blue }表示（    ）。",
